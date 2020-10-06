@@ -1,0 +1,17 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Realtime chat app",
+  "main": "server",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Chanuka",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "socket.io": "^2.3.0"
+  }
+}
